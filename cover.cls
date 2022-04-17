@@ -9,13 +9,13 @@
 \LoadClass{article}
 
 % Package Imports
-\usepackage[hmargin=1.5cm, vmargin=2.54cm]{geometry}
+\usepackage[hmargin=1.5cm, vmargin=1.0cm]{geometry}
 \usepackage[hidelinks]{hyperref}
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{titlesec}
 \usepackage[absolute]{textpos}
 \usepackage{fontspec,xltxtra,xunicode}
-
+\usepackage{ragged2e}
 % Publications
 \usepackage{cite}
 \renewcommand\refname{\vskip -1.5cm}
@@ -94,7 +94,7 @@ Last Updated on \today
 \newcommand{\currentdate}[1]{\raggedleft\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
 
 % Letter content command
-\newcommand{\lettercontent}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\}\mbox{}\\ \normalfont}
+\newcommand{\lettercontent}[1]{\justifying\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\}\mbox{}\\ \normalfont}
 
 \newcommand{\closing}[1]{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\}\mbox{}\\\mbox{}\\ \normalfont}
 
