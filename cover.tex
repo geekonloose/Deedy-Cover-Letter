@@ -9,7 +9,14 @@
  
 \pagestyle{fancy}
 \fancyhf{}
- 
+ \usepackage{hyperref}
+ \hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+    pdftitle={Cover letter},
+    }
 \rfoot{Page \thepage \hspace{1pt}}
 \thispagestyle{empty}
 \renewcommand{\headrulewidth}{0pt}
@@ -73,42 +80,45 @@
     interface and in-containment source term. For in-vessel assessment, I have
     developed two tools namely i) percolation based mechanistic model to
     determine fission gas release and ii) thermo-chemical equilibrium approach
-    based tool MINICHEM. The model would be not only helpful to determine gap
+    based tool MINICHEM to determine RN release to cover gas. The fission gas release model would be not only helpful to determine gap
     release under accident conditions, but would be helpful to locate failed
-    fuel elements. The developed tool was also used to analyze the allowable
+    fuel elements during reactor operation. The developed tool was also used to analyze the allowable
     failed fuel elements during reactor operation for Prototype Fast Breeder
-    Reactor (PFBR). Apart from these, I have developed python based tool to
-    analyze in-vessel source term which is available as an open source at
-    GitHub.}
+    Reactor (PFBR). MINICHEM is python based tool to
+    analyze RN release to cover gas which is available as an open source at
+    \href{https://github.com/parthigcar/MINICHEM}{GitHub}.}
 
 \lettercontent{For the interface and in-containment source term, where the
-    dynamics of aerosol evolution and release are important from the point of
-    source term analysis. I have developed python based tool which is having
-    capability to analyze the aerosol evolution with time. The model is
-    available as an open source at GitHub. Further, by utilizing the capability
-    of OpenFOAM, I have performed 3D simulations for the cover gas and
-    containment facilisis (scaled experimental facilities) in order to have
-    realistic feedback of aerosol evolution during accident conditions.}
+    dynamics of aerosol evolution and release are of the importance, I have
+    developed python based tool with capability to analyze the aerosol evolution
+    with time. The model is available as an open source at 
+    \href{https://github.com/parthigcar/PANDICA}{GitHub}.
+    Further, by utilizing the capability of OpenFOAM, I have performed 3D
+    simulations for the cover gas and containment facilities (scaled experimental
+    facilities) in order to have realistic feedback of aerosol evolution during
+    accident conditions (using aerosolEulerFoam).}
 
 % Conclude your application letter by thanking the employer for considering you for the position. 
 
 \lettercontent{I am extremely eager to pursue a post-doctoral research on any
-    challenging problems in the field of multiphysics simulation of future
+    challenging problems towards development of multiscale and multiphysics simulation for future
     generation reactors and related research topics. My formal training,
-    academic background and research experience should perimt me to carry on my
-    work in any research problem related to fission gas release, coupled
-    neutronic-thermal hydraulics problems and aerosol related problems. My
-    field of research interests matches with the work carried out in your
-    research group on multi-physics solver developement. I would like to work
-    on research problems related to development of 3-D fuel performance code
-    using OpenFOAM. As an aspiring researcher I ensure that I will give my best
-    to create and innovate in the field of on multi-physics solver development
-    and work hard in order to probe my self worthy. }
+    academic background and research experience should permit me to carry on my
+    work in any research problem related to safety analysis.
+    % fission gas release, coupled
+    % neutronic-thermal hydraulics problems and aerosol related problems
+    My field of research interests matches with the work carried out in your
+    research group on development of multiphysics solver for the estimation of
+    the fission gas release from the fuel elements. I would like to work on
+    research problems related to development of 3-D fuel performance code using
+    OpenFOAM. As an aspiring researcher I ensure that I will give my best to
+    provide innovative solution towards task given to me and work hard in order
+    to probe my self worthy. }
 
 \lettercontent{I will be happy to provide you with any additional information that is necessary to support my application. Looking forward to hearing from you. }
 \vspace{0.2cm}
 
-\closing{Sincerely,\\ \vspace{.1cm} \includegraphics[width=4cm]{OpenFonts/signature} \vspace{-1cm} }
+\closing{Sincerely,\\ \vspace{.1cm} \includegraphics[width=4cm]{OpenFonts/signature_parth} \vspace{-1cm} }
 
 \signature{Parthkumar Rajendrabhai Patel}
 

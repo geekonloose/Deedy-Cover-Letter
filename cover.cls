@@ -10,7 +10,7 @@
 
 % Package Imports
 \usepackage[hmargin=1.5cm, vmargin=1.0cm]{geometry}
-\usepackage[hidelinks]{hyperref}
+\usepackage{hyperref}
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{titlesec}
 \usepackage[absolute]{textpos}
